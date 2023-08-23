@@ -2,7 +2,7 @@ Hey, I've made a short list of currently available features on the site.
 There's a folder called [How Do I See It] to show you how I saw it when I developed and designed the site.
 The names s1, s2 , s3, etc.. are the names of the pictures in this folder.
 
-# Features
+# Features #
 Main Page[Image s1]:
 - Created a name that went through my mind and added a small icon to make it look like a professional logo.
 - Changing words under the main title - used animation.
