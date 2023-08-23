@@ -40,12 +40,16 @@ When clicking the Clear Done Column button, you are displayed with another butto
 - Move the button to move the card to the "Done" column.
 - Hovering over the priority color will display the text, and you will be able to see it on image S7.
 
-![Image Alt Text](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s1.png)
+![S1](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s1.png)
 
-![s2](https://github.com/LielBuchnik/ToDoList-Homework/blob/main/%5BHow%20Do%20I%20See%20It%5D/s2.png)
+![S2](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s2.png)
 
-![s3](https://github.com/LielBuchnik/ToDoList-Homework/blob/main/%5BHow%20Do%20I%20See%20It%5D/s3.png)
+![S3](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s3.png)
 
-![Imgur](https://imgur.com/Nlzhmnv)
-[Imgur](https://imgur.com/Nlzhmnv)
-![GitHub Logo](https://github.com/username/repository/blob/master/image.png)
+![S4](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s4.png)
+
+![S5](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s5.png)
+
+![S6](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s6.png)
+
+![S7](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s7.png)
