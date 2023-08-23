@@ -40,7 +40,7 @@ When clicking the Clear Done Column button, you are displayed with another butto
 - Move the button to move the card to the "Done" column.
 - Hovering over the priority color will display the text, and you will be able to see it on image S7.
 
-![s1](https://github.com/LielBuchnik/ToDoList-Homework/blob/main/%5BHow%20Do%20I%20See%20It%5D/s1.png)
+![Image Alt Text](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s1.png)
 
 ![s2](https://github.com/LielBuchnik/ToDoList-Homework/blob/main/%5BHow%20Do%20I%20See%20It%5D/s2.png)
 
