@@ -39,3 +39,9 @@ When clicking the Clear Done Column button, you are displayed with another butto
 - Move the button to move the card to the "Done" column.
 - Hovering over the priority color will display the text, and you will be able to see it on image S7.
 
+![alt text](https://imgur.com/Nlzhmnv)
+![alt text]([img]https://i.imgur.com/Nlzhmnv.png[/img])
+![alt text](https://i.imgur.com/Nlzhmnv.png)
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
