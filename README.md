@@ -3,25 +3,25 @@ There's a folder called [How Do I See It] to show you how I saw it when I develo
 The names s1, s2 , s3, etc.. are the names of the pictures in this folder.
 
 # Features #
-Main Page[Image s1]:
+### Main Page[Image s1]: ###
 - Created a name that went through my mind and added a small icon to make it look like a professional logo.
 - Changing words under the main title - used animation.
 - Log In/Sign Up Buttons are available on the navbar and under Main Title.
 - Floating image on the right side of the screen with floating animation.
 
-Sign Up Page[Images s2]:
+### Sign Up Page[Images s2]: ###
 - Clean sign-up form made from inputs.
 - Reset Form Button with double-click confirmation(and a small alert).
 - Data is saved on Session Storage.
 
-Log In Page [Images s3, s4]:
+### Log In Page [Images s3, s4]: ###
 - Clean login up form made from inputs.
 - Log in using Username and Password taken from Session Storage.
 - Wrong Password alert.
 - Username does not exist alert.
 - When inputs are correct, loading with animation and gif are displayed.
 
-To Do Page [Images s5, s6, s7]:
+### To Do Page [Images s5, s6, s7]: ###
 - Welcoming users on the top right page.
 - Change background button(Will lead you to change background function Image S6).
 - Choosing any image will change the background image.
@@ -40,6 +40,7 @@ When clicking the Clear Done Column button, you are displayed with another butto
 - Move the button to move the card to the "Done" column.
 - Hovering over the priority color will display the text, and you will be able to see it on image S7.
 
+** Word was just changed(animation) that's why it is blurry.
 ![S1](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s1.png)
 
 ![S2](https://github.com/LielBuchnik/ToDoList-Homework/raw/main/[How%20Do%20I%20See%20It]/s2.png)
