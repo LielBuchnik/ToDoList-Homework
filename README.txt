@@ -45,4 +45,4 @@ When clicking the Clear Done Column button, you are displayed with another butto
 ![s3](https://i.imgur.com/Nlzhmnv.png)
 ![Imgur](https://imgur.com/Nlzhmnv)
 [Imgur](https://imgur.com/Nlzhmnv)
-![alt text](http://url/to/img.png)
+![GitHub Logo](https://github.com/username/repository/blob/master/image.png)
