@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "tname": "Cleaning the house",
+            "priority": "high",
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsum"
+        },
+        {
+            "id": 2,
+            "tname": "Painting the house",
+            "priority": "low",
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsum"
+        },
+        {
+            "id": 3,
+            "tname": "Washing the car",
+            "priority": "medium",
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsum"
+        }
+    ]
+}

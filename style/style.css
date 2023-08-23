@@ -1,0 +1,100 @@
+/* All Rights reserved to Liel Buchnik */
+/* 10 Aug 2023 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'REM', sans-serif;
+    position: relative;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000945, #000077);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+html {
+    min-height: 100%;
+}
+
+.bx-list-check {
+    font-size: 55px;
+    position: absolute;
+    left: 165px;
+    top: -3px;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    top: 30px;
+    height: 10px;
+}
+
+.logo {
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation Bar Design By Liel. */
+.navbar {
+    position: absolute;
+    float: right;
+    right: 10%;
+    top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    z-index: 2;
+
+}
+
+.navbar a {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    scale: 1.11;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #c5d5ff;
+    transition: 0.3s;
+}
+
+.navbar #signup-button {
+    background: #a4bcfe;
+    padding: 10px;
+    box-shadow: inset 20px 20px 60px #8b99d8,
+        inset -20px -20px 60px #bdc1ff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.navbar #signup-button:hover {
+    box-shadow: inset 20px 20px 60px #6985ff,
+        inset -20px -20px 60px #6a74fd;
+    color: white;
+}
+
+.navbar .active{
+    color: #c5d5ff;
+}

@@ -1,0 +1,210 @@
+/* All Rights reserved to Liel Buchnik */
+/* 10 Aug 2023 */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.main-title{
+    margin-top: 5%;
+    left: 10%;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    bottom: 150px;
+}
+
+#image-near-main-title{
+    display: flex;
+    margin-top: 9%;
+    max-width: 70%;
+    max-height: 100%;
+    padding-left: 150px ;
+    z-index: -1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media (max-width: 1536px) {
+    .main-title {
+        margin-top: 10%;
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1536px) {
+    #image-near-main-title {
+        margin-top: 10%;
+        float: right;
+        width: 60%;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-title {
+        margin-top: 15%;
+        width: 100%;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #image-near-main-title {
+        float: right;
+        width: 55%;
+        margin-right: 100px;
+    }
+}
+
+.box{
+    opacity: 0;
+    position: absolute;
+}
+
+.word-1{
+    animation: ani1 15s infinite;
+}
+.word-2{
+    animation: ani2 15s infinite;
+}
+.word-3{
+    animation: ani3 15s infinite;
+}
+.word-4{
+    animation: ani4 15s infinite;
+}
+.word-5{
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }    
+    10%{
+        opacity: 1;
+    }    
+    20%{
+        opacity: 0;
+    }    
+}
+
+@keyframes ani2{
+    20%{
+        opacity: 0;
+    }    
+    30%{
+        opacity: 1;
+    }    
+    40%{
+        opacity: 0;
+    }    
+}
+@keyframes ani3{
+    40%{
+        opacity: 0;
+    }    
+    50%{
+        opacity: 1;
+    }    
+    60%{
+        opacity: 0;
+    }    
+}
+@keyframes ani4{
+    60%{
+        opacity: 0;
+    }    
+    70%{
+        opacity: 1;
+    }    
+    80%{
+        opacity: 0;
+    }    
+}
+@keyframes ani5{
+    80%{
+        opacity: 0;
+    }    
+    90%{
+        opacity: 1;
+    }    
+    100%{
+        opacity: 0;
+    }    
+}
+
+/* Buttons Under Title */
+.buttons-sign-log{
+    position: absolute;
+    float: left;
+    margin-top: 175px;
+}
+
+.signup-under-title{
+    cursor: pointer;
+    background-color:  #6482dd;
+    width: 150px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.signup-under-title:hover{
+    background-color: transparent;
+    width: 150px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    box-shadow: inset 20px 20px 60px transparent,
+    inset -20px -20px 60px transparent;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.login-under-title{
+    cursor: pointer;
+    background-color: transparent;
+    width: 150px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.login-under-title:hover{
+    width: 150px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: #6482dd;
+    border: 1px solid #6482dd;
+    transition: 0.3s;
+}
+

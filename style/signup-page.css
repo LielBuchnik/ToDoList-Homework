@@ -1,0 +1,227 @@
+/* All Rights reserved to Liel Buchnik */
+/* 06 Aug 2023 */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'REM', sans-serif;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+@media (max-width: 1536px) {
+    .image-near-form {
+        display: none;
+    }
+}
+
+@media (max-width: 1536px) {
+    #container-signup {
+        position: absolute;
+        margin-left: 25%;
+        width: 100%;
+    }
+}
+
+
+.image-near-form {
+    float: left;
+    max-width: 35%;
+    margin-top: 10%;
+    left: 8%;
+}
+
+#container-signup {
+    float: right;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    width: 60%;
+    max-width: 700px;
+    min-width: 600px;
+    border-radius: 6px;
+    border: 1px solid #ffffffd2;
+    box-shadow: 0px 0px 20px 0px rgba(132, 132, 132, 0.5);
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+#main-title {
+    margin-top: 45px;
+    font-size: 27px;
+    color: #6161b8;
+    font-weight: 700;
+}
+
+#main-title::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    border-radius: 3px;
+    background: #6161b8;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#secondary-title {
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.field {
+    padding: 7px;
+}
+
+/* Start of inputs */
+
+input {
+    margin-top: 20px;
+    background-color: #e3e3e3;
+    width: 250px;
+    height: 38px;
+    border: #fff 1px solid;
+    outline: none;
+    border-radius: 3px;
+    transition: 0.2s;
+    box-shadow: 0px 0px 2px 0px rgba(132, 132, 132, 0.5);
+}
+
+select[id="pgender"] {
+    margin-top: 20px;
+    background-color: #e3e3e3;
+    width: 250px;
+    height: 38px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid white;
+    transition: 0.2s;
+    box-shadow: 0px 0px 2px 0px rgba(132, 132, 132, 0.5);
+}
+
+input:hover {
+    transition: 0.2s;
+    border: #000077 1px solid;
+}
+
+
+select:hover {
+    transition: 0.2s;
+}
+
+/* End of inputs */
+
+
+/* Button design start */
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 1;
+    font-size: 11px;
+    width: 170px;
+    height: 40px;
+    border: 1px solid rgba(151, 151, 151, 0.3);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: transparent;
+    margin-top: 25px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.btn-box2 {
+    background-color: #ff3f3f;
+    color: white;
+}
+
+.btn-box:hover {
+    color: white;
+    background-color: #4b4bc5;
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.2);
+}
+
+.btn-box2:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.2);
+}
+
+/* Button design start */
+
+
+.list-display {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(224, 224, 224);
+    overflow-y: auto;
+}
+
+.btn-box,
+.btn-box2,
+.btn-box3 {
+    box-shadow: 0px 0px 5px 0px rgba(132, 132, 132, 0.5);
+}
+
+/* progBar */
+
+.progressbarWrapper {
+    height: 30px;
+    width: 200px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    position: relative;
+    background: transparent;
+    padding: 3px;
+    box-shadow: transparent;
+}
+
+#hint-bar {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 170px;
+    color: red;
+    height: 15px;
+}
+
+#under-hint {
+    font-size: 12px;
+    font-weight: 500;
+    color: red;
+    height: 15px;
+}
+
+.already {
+    font-weight: 500;
+    color: #303030;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.link-login {
+    color: #6161b8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #3b3b8d;
+    cursor: pointer;
+}
+
+.link-login::after{
+    text-decoration: none;
+}

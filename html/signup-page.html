@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css"> <!-- Main Site CSS -->
+    <link rel="stylesheet" href="../style/signup-page.css"> <!-- This Page CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+    <title>Wha-To-Do</title>
+</head>
+<header>
+    <div>
+        <a class="logo" href="../html/index.html">WHA-TO-DO<i class='bx bx-list-check'></i></a>
+    </div>
+    <div class="navbar">
+        <a href="../html/index.html">Homepage</a>
+        <a href="login-page.html" id="login-button">Login</a>
+        <a href="../html/signup-page.html" id="signup-button">Sign Up</a>
+    </div>
+</header>
+
+<body>
+    <div class="page-container">
+    <div>
+        <img class="image-near-form" src="../images/pencil_image2.png">
+    </div>
+    <div class="main-container">
+        <div id="container-signup">
+            <p id="main-title">We're So Glad You Decided To Join Us!</p>
+            <p id="secondary-title">Fill Up Some Information Just To Know You Better</p>
+            <div class="field">
+                <input type="text" placeholder="Full Name" id="pfname" required />
+                <input type="text" placeholder="Username" id="pusername" required />
+            </div>
+            <div class="field">
+                <input type="date" placeholder="Age" id="page" required />
+                <select id="pgender" placeholder="Gender" required>
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="field">
+                <input type="password" placeholder="Enter Password" id="password" required />
+                <input type="password" placeholder="Confirm Password" id="password-confirm" required />
+            </div>
+            <div class="field">
+                <input type="email" placeholder="Enter Email" id="pemail" required />
+                <input type="email" placeholder="Confirm Email" id="pemail-confirm" required />
+            </div>
+            <div class="but-des">
+                <button class="btn-box" id="userSubmit"
+                    onclick="userSubmition(pfname.value, pusername.value, page.value, pgender.value, password.value, pemail.value)">Submit</button>
+                <button class="btn-box2" id="resetLoginForm" title="Double Click To Activate">Reset Form</button>
+            </div>
+            <div id="hint-bar"></div>
+            <div id="under-hint"></div>
+            <div class="already">
+                <p>Already Joined Us? <a href="../html/login-page.html" onclick="loginActive()" class="link-login">Click
+                        Here!</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../script/signup-page.js"></script>
+
+</html>

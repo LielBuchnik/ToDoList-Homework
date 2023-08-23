@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css"> <!-- Main Site CSS -->
+    <link rel="stylesheet" href="../style/login-page.css"> <!-- This Page CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+    <title>Wha-To-Do</title>
+</head>
+<header>
+    <div>
+        <a class="logo" href="../html/index.html">WHA-TO-DO<i class='bx bx-list-check'></i></a>
+    </div>
+    <div class="navbar">
+        <a href="../html/index.html">Homepage</a>
+        <a class="active" href="login-page.html" id="login-button">Login</a>
+        <a href="../html/signup-page.html" id="signup-button">Sign Up</a>
+    </div>
+</header>
+
+<body>
+    <div>
+        <img class="image-near-form" src="../images/pencil_image2.png">
+    </div>
+    <div class="main-container">
+        <div id="container-login">
+            <p id="main-title">Welcome Back!</p>
+            <p id="secondary-title">Fill Up Your Information To Enter Your Profile</p>
+            <div class="field">
+                <i class='bx bxs-user'></i>
+                <input type="text" placeholder="Username" id="pusername" required />
+            </div>
+            <div class="field">
+                <i class='bx bxs-key'></i>
+                <input type="password" placeholder="Enter Password" id="password" required />
+            </div>
+            <div class="but-des">
+                <button class="btn-box" id="userLogin"
+                    onclick="userLogin(pusername.value, password.value)">Submit</button>
+            </div>
+            <div id="hint-bar"></div>
+            <div id="under-hint"></div>
+            <div class="already">
+                <p>You Are Not Signed Up Yet? Oof, You Better <a href="../html/signup-page.html"
+                        onclick="signupActive()" class="link-login">Click
+                        Here!</a></p>
+            </div>
+        </div>
+
+</body>
+<script src="../script/login-page.js"></script>
+
+</html>

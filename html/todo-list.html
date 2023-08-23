@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css"> <!-- Main Site CSS -->
+    <link rel="stylesheet" href="../style/todo-list.css"> <!-- This Page CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+    <title>Wha-To-Do</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="logo" href="../html/index.html">WHA-TO-DO<i class='bx bx-list-check'></i></a>
+        </div>
+        <div>
+            <button id="changeBG-Button" onclick="displayChangeBG()">Change Background</button>
+        </div>
+        <div class="navbar">
+            <span id="welcome-user"></span>
+        </div>
+    </header>
+
+    <div id="mainContainer">
+        <div id="todoList">
+            <div class="add-new-task">
+                <h2 class="column-title">Add New Task</h2>
+                <input id="tname" type="text" placeholder="Task Name" maxlength="32">
+                <select id="priority" type="text" placeholder="Priority">
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+                <div>
+                    <textarea id="description" type="text" placeholder="Task Description.."></textarea>
+                </div>
+                <div class="buttons-add-task">
+                    <button id="addTask"><i class='bx bx-plus'></i>Add Task</button>
+                    <button id="showTasks">Show Tasks</button>
+                </div>
+                <div id="alertDiv"></div>
+                <p class="sorting-title">How Do You Like To See Your Tasks?</p>
+                <div class="sorting-buttons">
+                    <button id="sortPriority">High to Low</button>
+                    <button id="sortTaskLowToHigh">Low to High</button>
+                    <button id="sortName">Sorted by Name</button>
+                </div>
+                <div class="clear-done-buttons">
+                    <button id="clearDoneColumn">Clear Done Column</button>
+                    <button id="clearDoneConfirm">Are You Sure?</button>
+                    <div>
+                        <button id="deleteConfirmation${i}" class="del-move-buttons delete-confirmation-button"
+                            onclick="clearDoneColumn()">Are You Sure?</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column">
+                <h2 class="column-title">To Do</h2>
+                <div id="todoColumn">
+                </div>
+            </div>
+
+            <div class="column">
+                <h2 class="column-title">Done</h2>
+                <div id="doneTaskColumn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Choose BG -->
+    <div id="chooseBG-Cont">
+        <div class="chooseBG">
+            <div>
+                <h1 class="wpTitle">Hey There! Please Choose Your Desired Background!</h1>
+            </div>
+            <div class="wp-ex-container">
+                <div class="wp-ex">
+                    <img src="../images/WPs/spidermanWP.jpg"></img>
+                    <div class="buttonBG-container">
+                        <button class="buttonBG" onclick="chooseBackgroundSPD()">Choose</button>
+                    </div>
+                </div>
+                <div class="wp-ex">
+                    <img src="../images/WPs/hollandWP.jpg"></img>
+                    <div class="buttonBG-container">
+                        <button class="buttonBG" onclick="chooseBackgroundHLND()">Choose</button>
+                    </div>
+                </div>
+                <div class="wp-ex">
+                    <img src="../images/WPs/natureWP.jpg"></img>
+                    <div class="buttonBG-container">
+                        <button class="buttonBG" onclick="chooseBackgroundNTR()">Choose</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#" id="no-WP-Chosen" onclick="defaultBG()">I Love The Blue One.. Lets Go! >>></a>
+        </div>
+    </div>
+
+    <script src="../script/todo-list.js"></script>
+</body>
+
+</html>
